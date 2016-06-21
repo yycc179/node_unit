@@ -1,0 +1,15 @@
+{
+    "name": "test unit",
+    "version": "0.0.1",
+
+    "scripts": {
+        "test": "istanbul cover ../../../node_global/node_modules/mocha/bin/_mocha"
+    },
+    "author": "yy",
+    "license": "MIT",
+    "devDependencies": {
+        "istanbul": "^0.4.3",
+        "mocha": "^1.21.4",
+        "should": "^4.0.4"
+    }
+}
