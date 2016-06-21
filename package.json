@@ -1,15 +1,28 @@
 {
-    "name": "test unit",
-    "version": "0.0.1",
-
-    "scripts": {
-        "test": "istanbul cover ../../../node_global/node_modules/mocha/bin/_mocha"
-    },
-    "author": "yy",
-    "license": "MIT",
-    "devDependencies": {
-        "istanbul": "^0.4.3",
-        "mocha": "^1.21.4",
-        "should": "^4.0.4"
-    }
+  "name": "test_cast",
+  "version": "1.0.0",
+  "description": "test unit",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+      "istanbul": "^0.4.3",
+      "mocha": "^2.4.5",
+      "should": "^4.0.4"
+  },
+  "scripts": {
+    "test": "istanbul cover ../../../node_global/node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yycc179/node_unit.git"
+  },
+  "author": "y.yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yycc179/node_unit/issues"
+  },
+  "homepage": "https://github.com/yycc179/node_unit#readme"
 }
