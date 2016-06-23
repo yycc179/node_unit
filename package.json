@@ -14,7 +14,6 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/istanbul cover _mocha"
-    //"test": "istanbul cover ../../../node_global/node_modules/mocha/bin/_mocha"
   },
   "repository": {
     "type": "git",
