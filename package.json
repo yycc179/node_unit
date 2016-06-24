@@ -13,7 +13,7 @@
       "should": "^4.0.4"
   },
   "scripts": {
-    "test": "./node_modules/.bin/istanbul cover _mocha"
+    "test": "istanbul cover _mocha"
   },
   "repository": {
     "type": "git",
