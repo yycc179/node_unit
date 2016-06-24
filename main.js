@@ -23,7 +23,7 @@ var fibonacci = function (n) {
       throw new Error('n should >= 0')
     }
     if (n > 10) {
-      throw new Error('n should <= 10');
+      //throw new Error('n should <= 10');
     }
 
     return fibonacci(n - 1) + fibonacci(n - 2);
