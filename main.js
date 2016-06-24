@@ -1,11 +1,11 @@
 /**
  * Created by yangyang on 2016/4/25.
- 
-	* µ± n === 0 Ê±£¬·µ»Ø 0£»n === 1Ê±£¬·µ»Ø 1;
-	* n > 1 Ê±£¬·µ»Ø `fibonacci(n) === fibonacci(n-1) + fibonacci(n-2)`£¬Èç `fibonacci(10) === 55`;
-	* n ²»¿É´óÓÚ10£¬·ñÔòÅ×´í£¬¹æ¸ñÒªÇó¡£
-	* n Ò²²»¿ÉĞ¡ÓÚ 0£¬·ñÔòÅ×´í£¬ÒòÎªÃ»ÒâÒå¡£
-	* n ²»ÎªÊı×ÖÊ±£¬·ñÔòÅ×´í¡£
+
+ * å½“ n === 0 æ—¶ï¼Œè¿”å› 0ï¼›n === 1æ—¶ï¼Œè¿”å› 1;
+ * n > 1 æ—¶ï¼Œè¿”å› `fibonacci(n) === fibonacci(n-1) + fibonacci(n-2)`ï¼Œå¦‚ `fibonacci(10) === 55`;
+ * n ä¸å¯å¤§äº10ï¼Œå¦åˆ™æŠ›é”™ï¼Œè§„æ ¼è¦æ±‚ã€‚
+ * n ä¹Ÿä¸å¯å°äº 0ï¼Œå¦åˆ™æŠ›é”™ï¼Œå› ä¸ºæ²¡æ„ä¹‰ã€‚
+ * n ä¸ä¸ºæ•°å­—æ—¶ï¼Œå¦åˆ™æŠ›é”™ã€‚
  */
  
 var fibonacci = function (n) {
@@ -16,15 +16,15 @@ var fibonacci = function (n) {
         return 1;
     }
 
-		if (typeof n !== 'number') {
-		  throw new Error('n should be a Number');
-		}
-		if (n < 0) {
-		  throw new Error('n should >= 0')
-		}
-		if (n > 10) {
-		  throw new Error('n should <= 10');
-		}
+    if (typeof n !== 'number') {
+      throw new Error('n should be a Number');
+    }
+    if (n < 0) {
+      throw new Error('n should >= 0')
+    }
+    if (n > 10) {
+      throw new Error('n should <= 10');
+    }
 
     return fibonacci(n - 1) + fibonacci(n - 2);
 };
